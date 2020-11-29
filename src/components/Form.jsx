@@ -74,7 +74,7 @@ export default function SignIn() {
             inputRef={register({
               required: 'You must provide the email address!',
               pattern: {
-                value: /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
                 message: 'You must provide a valid email address!',
               },
             })}
