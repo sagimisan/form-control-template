@@ -68,7 +68,7 @@ export default function SignIn() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Sign in Sagi.<span style={{color:"#05f7ff"}}>Website</span>
+          Sign in Sagi.<span style={{color:"#05f7ff"}}>Website.</span>
         </Typography>
         <form
           className={!message ? classes.form : classes.formHide}
